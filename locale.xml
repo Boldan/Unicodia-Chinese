@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<locale native="简体中文" international="Chinese" eng-terms="9" trigger-stamp="2022060">
+	<trigger-langs>
+		<lang iso="zh-CN" />
+	</trigger-langs>
+	<alpha-sort>
+		<alp>ABCDEFGHIJKLMNOPQRSTUVWXYZ</alp>
+		<alp>abcdefghijklmnopqrstuvwxyz</alp>
+		<alp>____________________Ü_____</alp>
+		<alp>____________________ü_____</alp>
+	</alpha-sort>
+	<alpha-fixup>
+		<blk start="02B0" target="带声调的间隔修饰符" /><!-- 间隔修饰符 -->
+		<blk start="0300" target="音区分符号组合" /><!-- 基础变音符号（如 umlauts） -->
+		<blk start="1800" target="古蒙古语文字" /><!-- 蒙古语文字 -->
+		<blk start="1980" target="新傣泐语文字（芬兰语）" /><!-- 新傣泐语文字 -->
+		<blk start="1D00" target="语音符号扩展" />
+		<blk start="1D80" target="语音符号扩展（窄体）" />
+		<blk start="2000" target="通用标点符号" /><!-- 标点符号 -->
+		<blk start="2070" target="上标字符与下标字符" /><!-- 数字形式 -->
+		<blk start="20A0" target="货币符号" />
+		<blk start="2100" target="字符变体符号" />
+		<blk start="2150" target="数字样式" />
+		<blk start="2190" target="箭头符号" /><!-- 其余箭头会自动关联 -->
+		<blk start="2200" target="数学符号" /><!-- 其余数学符号会自动关联 -->
+		<blk start="2300" target="技术用符号（等）" /><!-- 各类技术符号 -->
+		<blk start="2400" target="控制功能用符号" /><!-- 控制图形 -->
+		<blk start="2440" target="光学字符识别符号" /><!-- OCR 相关符号 -->
+		<blk start="2460" target="带圈字母数字" /><!-- 带圈字母数字 -->
+		<blk start="25A0" target="几何形状" /><!-- 形状类符号，其余会自动关联 -->
+		<blk start="2700" target="装饰符号" /><!-- 丁巴特符号；新增装饰符号会自动关联，无需省略号 -->
+		<blk start="2800" target="盲文点字" /><!-- 盲文 -->
+		<blk start="2F00" target="康熙部首" /><!-- 康熙部首，其余会自动关联 -->
+		<blk start="2FF0" target="汉字构成技术字符" /><!-- 汉字标识字符 -->
+		<blk start="3000" target="中日韩符号与标点" /><!-- 中日韩符号/标点 -->
+		<blk start="3100" target="注音符号（假名阴影）" /><!-- 注音符号 -->
+		<blk start="3190" target="汉文用符号" /><!-- 汉文相关符号 -->
+		<!-- 31C0 区块因以平假名结尾，排序逻辑无问题→无需调整 -->
+		<blk start="3200" target="带圈中日韩字符·符号" /><!-- 中日韩字母/月份相关 -->
+		<blk start="3300" target="中日韩拟声拟态字符" /><!-- 中日韩拟声词相关字符 -->
+		<blk start="4DC0" target="易经符号" /><!-- 易经相关符号 -->
+		<blk start="4E00" target="中日韩统一汉字" /><!-- 主要汉字；其余（含兼容汉字）会自动关联 -->
+		<blk start="A700" target="声调符号（小型）" /><!-- 小型声调符号 -->
+		<blk start="FE00" target="字体选择器" /><!-- 变体选择器 -->
+		<blk start="FE10" target="竖排形式" /><!-- 竖排相关形式 -->
+		<blk start="FE20" target="半角符号（可组合）" /><!-- 半角符号 -->
+		<blk start="FE30" target="中日韩兼容形式" /><!-- 中日韩兼容形式 -->
+		<blk start="FE50" target="小型变体" /><!-- 小型变体符号 -->
+		<blk start="FF00" target="半角·全角形式" /><!-- 半角/全角形式（旧版但可用） -->
+		<blk start="FFF0" target="特殊用途字符" /><!-- 特殊字符 -->
+		<blk start="10000" target="线性文字 B 补充字符" /><!-- 线性文字 B -->
+		<blk start="10190" target="古老符号" /><!-- 古代符号 -->
+		<blk start="103A0" target="古波斯文字" /><!-- 古波斯楔形文字 -->
+		<blk start="10600" target="线性文字 A" /><!-- 线性文字 A -->
+		<blk start="10840" target="阿拉米语文字" /><!-- 阿拉米语文字 -->
+		<blk start="10A60" target="古南阿拉伯文字" /><!-- 古南阿拉伯文字 -->
+		<blk start="10A80" target="古北阿拉伯文字" /><!-- 古北阿拉伯文字 -->
+		<blk start="10B40" target="碑铭帕提亚文字" /><!-- 碑铭帕提亚文字 -->
+		<blk start="10B60" target="碑铭巴列维文字" /><!-- 碑铭巴列维文字 -->
+		<blk start="10B80" target="诗篇巴列维文字" /><!-- 诗篇巴列维文字 -->
+		<blk start="10C00" target="古突厥如尼字母（杰内西兹文）" /><!-- 古突厥如尼字母 -->
+		<blk start="11580" target="悉昙文字（梵字）" /><!-- 悉昙文字 -->
+		<blk start="16FE0" target="表意符号及标点" /><!-- 表意符号 -->
+		<blk start="17000" target="西夏文" /><!-- 西夏文，其余会自动关联 -->
+		<blk start="18B00" target="契丹小字" /><!-- 契丹小字 -->
+		<blk start="1B170" target="女书" /><!-- 女书 -->
+		<blk start="1D100" target="音乐符号" /><!-- 音乐符号 -->
+		<blk start="1D300" target="太玄经符号" /><!-- 太玄经符号 -->
+		<blk start="1D360" target="算筹数字" /><!-- 算筹数字 -->
+		<blk start="1F100" target="带圈字母数字（窄体）" /><!-- 带圈字母数字（窄体） -->
+		<blk start="1F200" target="带圈汉字（窄体）" /><!-- 带圈汉字（窄体） -->
+		<blk start="1F600" target="面部表情符号" /><!-- 表情符号 -->
+		<blk start="1F680" target="交通及地图符号" /><!-- 交通/地图符号 -->
+		<blk start="1F700" target="炼金术符号" /><!-- 炼金术符号 -->
+		<blk start="1FB00" target="旧式计算机用符号" /><!-- 旧式兼容符号 -->
+	</alpha-fixup>
+	<ellipsis text="…">
+		<blk start="1AB0" /><!-- 变音符号补充（集群中第3个；第2和第4个无需设置） -->
+		<blk start="2E00" /><!-- 补充标点符号 -->
+		<blk start="2E80" /><!-- 中日韩部首补充 -->
+		<blk start="30A0" /><!-- 片假名 -->
+		<blk start="31F0" /><!-- 片假名语音符号 -->
+		<blk start="10100" /><!-- 爱琴海数字 -->
+		<blk start="10140" /><!-- 古希腊数字 -->
+		<blk start="10F00" /><!-- 古粟特语文字 -->
+		<blk start="11B60" /><!-- 沙拉达文字补充（本地化前） -->
+		<blk start="12480" /><!-- 早王朝时期楔形文字 -->
+		<blk start="18D80" /><!-- 西夏文部件补充（本地化前） -->
+		<blk start="1AFF0" /><!-- 假名扩展-B -->
+		<blk start="1B000" /><!-- 假名补充 -->
+		<blk start="1B100" /><!-- 假名扩展-A -->
+		<blk start="1B130" /><!-- 小型假名扩展 -->
+		<blk start="1BCA0" /><!-- 速记格式控制符 -->
+		<blk start="1CEC0" /><!-- 杂项符号补充（本地化前） -->
+		<blk start="1D200" /><!-- 古希腊音乐记谱法 -->
+		<blk start="1F900" /><!-- 扩展符号 -->
+		<blk start="1FA70" /><!-- 扩展符号-A -->
+	</ellipsis>
+	<wiki-templates>
+		<tmpl name="-">
+		</tmpl>
+		<tmpl name=",-">
+		</tmpl>
+	</wiki-templates>
+	<icons sort-az="sort_AZ" />
+	<num-format dec-point="." thou-point="’" thou-min-length="4" thou-min-length-dense="5">
+		<imprecise>
+			<fmt shift="0" text="{1} 人" frac="never" />
+			<fmt shift="3" text="{1} 千人" frac="avoid" bigger-unit="万" bigger-subshift="1" />
+			<fmt shift="4" text="{1} 万人" frac="prefer" bigger-unit="亿" bigger-subshift="4" />
+			<fmt shift="8" text="{1} 亿人" frac="never" />
+		</imprecise>
+		<moreless less="{1}以下" more="{1}以上" phase="num" />
+		<percent inverse="0" space="1" />
+	</num-format>
+	<cardinal-rules default-outcome="many">
+		<rule mod="0" min="1" max="1" outcome="one" /><!-- 1 lap -->
+	</cardinal-rules>
+	<peculiarities still-uses-burmese="0" />
+	<punctuation key-value-colon=": " uniform-comma=", " semicolon="; " left-paren="(" right-paren=")"
+		indent-ellip="…" range="〜" year-range="〜" />
+	<rename-altcode />
+</locale>
